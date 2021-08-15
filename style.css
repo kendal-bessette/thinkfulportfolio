@@ -1,4 +1,4 @@
-/* Set ALL HTML elements with border-box sizing */* {
+/* Set ALL HTML elements with border-box sizing */ {
   box-sizing: border-box;
 }
 
@@ -14,6 +14,7 @@ h3 {
 font-size: 20px;  
 }
 
+/* I set all text elements to the same font color here, I wanted certain sections to have different font sizes than others so I put that in other sections of the code */
 h1, h2, h3, p, ul, ol, footer {
 color: #572D26;
 }
@@ -23,17 +24,20 @@ font-family: helvetica;
 font-size: 14px; 
 }
 
+/* I wanted to have my header fill the screen and be a different color than my background */
 header  {
-position: relative;
 width: 100%;
 margin: 0;
 background-color: #FF8C8C;
 padding: 10px 0 10px 10px;
 }
 
+/* Same with my footer, I wanted it to be a different color but slightly smaller than my header */
 footer  {
 width: 100%;
-margin: 0;
+display: block;
+margin-left: auto;
+margin-right: auto; 
 background-color: #FF8C8C;
 padding: 10px 0 10px 10px;
 text-align: center;
@@ -42,6 +46,8 @@ font-size: 10px;
 
 body {
 background-color: #FC6835;
+margin-top: -10px;
+margin-bottom: -40px;
 }
 
 hr {
@@ -55,6 +61,7 @@ img {
 width: 50px;  
 }
 
+/* I used this to make sure only my section headings were set to uppercase */
 .section-header {
 font-family: futura; 
 text-align: center;
@@ -76,6 +83,7 @@ text-transform: uppercase;
   padding-bottom: 10px;
 }
 
+/* It took me a little while to set my contact icons to the center of the page. I ended up figuring it out by using display flex */
 .contact-icon {
 display: flex;
 justify-content: center;
