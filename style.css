@@ -1,0 +1,84 @@
+/* Set ALL HTML elements with border-box sizing */* {
+  box-sizing: border-box;
+}
+
+html, body {
+ margin: 0;
+}
+
+h1 {
+font-size: 30px;   
+}
+
+h3 {
+font-size: 20px;  
+}
+
+h1, h2, h3, p, ul, ol, footer {
+color: #572D26;
+}
+
+div p, div ul, div ol {
+font-family: helvetica;
+font-size: 14px; 
+}
+
+header  {
+position: relative;
+width: 100%;
+margin: 0;
+background-color: #FF8C8C;
+padding: 10px 0 10px 10px;
+}
+
+footer  {
+width: 100%;
+margin: 0;
+background-color: #FF8C8C;
+padding: 10px 0 10px 10px;
+text-align: center;
+font-size: 10px;
+}
+
+body {
+background-color: #FC6835;
+}
+
+hr {
+border: 7px dotted #FFEAB3;  
+border-bottom: 0px;
+align-content: center;
+width: 600px;
+}
+
+img {
+width: 50px;  
+}
+
+.section-header {
+font-family: futura; 
+text-align: center;
+text-transform: uppercase;
+}
+
+.wrapper {
+ width: 600px;
+ margin: auto; 
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-icon {
+display: flex;
+justify-content: center;
+padding-bottom: 30px;
+}
+
