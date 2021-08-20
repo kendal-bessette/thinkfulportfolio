@@ -90,3 +90,11 @@ justify-content: center;
 padding-bottom: 30px;
 }
 
+/*psuedo-classes for link */
+a:hover{
+color: white;
+}
+
+a:visited{
+color: black;
+}
